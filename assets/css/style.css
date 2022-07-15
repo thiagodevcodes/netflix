@@ -131,17 +131,14 @@ body {
 }
 
 .section-one {
-    display: flex;
+    display: flex;    
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 250px;
     background-color: black;
     height: 400px;
     border-top: 7px solid rgba(80, 80, 80, 0.411);
     border-bottom: 7px solid rgba(80, 80, 80, 0.411);
-}
-
-.section-one-div {
-    padding: 100px;
 }
 
 .section-one-h2 {
@@ -158,7 +155,21 @@ body {
     font-weight: normal;
 }
 
-.section-one-img {
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-img {
+    position: absolute;
     width: 450px;
+    z-index: 1;
+}
+
+.video-card-video {
+    position: relative;
+    width: 330px;
+    top: -6px;
 }
 
