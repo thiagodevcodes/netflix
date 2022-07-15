@@ -185,3 +185,86 @@ body {
     top: -6px;
 }
 
+.section-two {
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    gap: 250px;
+    border-bottom: 7px solid rgba(80, 80, 80, 0.411);
+}
+
+.section-two-h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40pt;
+    margin-bottom: 30px;
+    width: 450px;
+}
+
+.section-two-h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 455px;
+    font-size: 20pt;
+    font-weight: normal;
+}
+
+.section-two-download {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    background-color: rgb(5, 5, 5);
+    padding: 20px;
+    border-radius: 7px;
+    border: 3px solid rgba(80, 80, 80, 0.411);
+    top: 120px;
+}
+
+.download-img {
+    position: absolute;
+    width: 40px;
+    z-index: 2;
+
+}
+
+.download-img2 {
+    width: 25px;
+    z-index: 2;
+    filter: invert(100%);
+    margin-left: 10px;
+}
+
+.download-p {
+    color: white;
+    font-size: 12pt;
+    z-index: 1;
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+}
+
+.download-p2 {
+    color: #0071eb;;
+    font-size: 12pt;
+    z-index: 1;
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+}
+
+.download-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.download-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
