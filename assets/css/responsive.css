@@ -1,0 +1,31 @@
+@media screen and (max-width: 1147px) {
+    .section-one {
+        padding-top: 100px;
+        padding-bottom: 800px;
+        gap: 200px;
+    }
+
+    .section-one-h2 {
+        text-align: center;
+        font-size: 30pt;
+    }
+
+    .section-one-h3 {
+        text-align: center;
+        font-size: 15pt;
+        width: 400px;
+    }
+
+    .nav {
+        gap: 0
+    }
+
+
+}
+
+@media screen and (max-width: 579px) {
+    .button {
+        margin-top: 10px;
+        padding: 15px;
+    }
+}

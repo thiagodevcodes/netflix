@@ -54,6 +54,7 @@ body {
 .group-buttons {
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 .lang-icon {
@@ -98,6 +99,7 @@ body {
 .main-inputs {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .main-h2 {
@@ -121,7 +123,6 @@ body {
     width: 400px;
     font-size: 12pt;
     outline: none;
-
 }
 
 .input-text:focus {
