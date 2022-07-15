@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 .header-main {
@@ -88,18 +88,18 @@ body {
     z-index: -1;
 }
 
+.main-inputs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .main-h1 {
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35pt;
     margin-bottom: 10px;
-}
-
-.main-inputs {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
 .main-h2 {
@@ -134,8 +134,7 @@ body {
     background-color: red;
     border: none;
     color: white;
-    font-size: 15pt;
-    padding: 0px 15px;
+    padding: 0px 10px;
     font-size: 20pt;
     cursor: pointer;
 }
