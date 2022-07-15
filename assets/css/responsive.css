@@ -1,7 +1,7 @@
 @media screen and (max-width: 1147px) {
     .section-one {
-        padding-top: 100px;
-        padding-bottom: 800px;
+        padding-top: 70px;
+        padding-bottom: 700px;
         gap: 200px;
     }
 
@@ -20,8 +20,29 @@
         gap: 0
     }
 
+    .section-two {
+        padding-top: 150px;
+        padding-bottom: 500px;
+        gap: 200px;
+    }
 
-}
+    .section-two-h2 {
+        text-align: center;
+        font-size: 30pt;
+    }
+
+    .section-two-h3 {
+        text-align: center;
+        font-size: 15pt;
+        width: 400px;
+    }
+
+    .section-two-div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
 
 @media screen and (max-width: 579px) {
     .button {

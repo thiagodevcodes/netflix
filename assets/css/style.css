@@ -192,6 +192,7 @@ body {
     height: 450px;
     gap: 250px;
     border-bottom: 7px solid rgba(80, 80, 80, 0.411);
+    flex-wrap: wrap;
 }
 
 .section-two-h2 {
@@ -221,6 +222,7 @@ body {
     border-radius: 7px;
     border: 3px solid rgba(80, 80, 80, 0.411);
     top: 120px;
+
 }
 
 .download-img {
@@ -259,12 +261,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
 }
 
 .download-container {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
