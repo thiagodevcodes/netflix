@@ -194,10 +194,10 @@ body {
     display: flex;    
     align-items: center;
     justify-content: center;
-    height: 450px;
     gap: 250px;
+    padding: 120px;
     border-bottom: 7px solid rgba(80, 80, 80, 0.411);
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 
 .section-two-h2 {

@@ -2,7 +2,6 @@
     .section-one {
         padding-top: 50px;
         padding-bottom: 450px;
-        gap: 200px;
     }
 
     .section-one-h2 {
@@ -21,14 +20,15 @@
     }
 
     .section-two {
-        padding-top: 100px;
-        padding-bottom: 500px;
-        gap: 200px;
+        padding-top: 50px;
+        padding-bottom: 170px;
+        gap: 0;
     }
 
     .section-two-h2 {
         text-align: center;
         font-size: 30pt;
+
     }
 
     .section-two-h3 {
