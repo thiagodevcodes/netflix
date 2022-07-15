@@ -46,18 +46,19 @@ body {
 .nav-button-lang {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 9px;
     background: none;
-    padding: 8px 12px;
+    padding: 8px 18px;
     border: 1px solid white;
     font-size: 12pt;
     color: white;
+
 }
 
 .group-buttons {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .lang-icon {

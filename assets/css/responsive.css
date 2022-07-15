@@ -64,18 +64,9 @@
         cursor: pointer;
     }
 
-    .nav-button {
-        padding: 5px 10px;
-        font-size: 12pt;
-    }
-
-    .nav-button-lang {
-        padding: 5px 6px;
-        gap: 0;
-    }
 
     .nav-img {
-        width: 80px;
+        width: 100px;
     }
 
     .video-img {
@@ -119,8 +110,5 @@
         margin-bottom: 10px;
         font-size: 12pt;
         outline: none;
-    }
-
-
-    
+    }   
 }
