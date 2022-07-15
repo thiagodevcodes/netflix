@@ -22,7 +22,7 @@
     .section-two {
         padding-top: 50px;
         padding-bottom: 170px;
-        gap: 60px;
+        gap: 70px;
     }
 
     .section-two-h2 {
@@ -126,4 +126,8 @@
         font-size: 12pt;
         outline: none;
     }   
+
+    .section-two-downloads {
+
+    }
 }
