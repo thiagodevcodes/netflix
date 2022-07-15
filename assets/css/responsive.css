@@ -1,7 +1,7 @@
 @media screen and (max-width: 1147px) {
     .section-one {
-        padding-top: 70px;
-        padding-bottom: 700px;
+        padding-top: 50px;
+        padding-bottom: 600px;
         gap: 200px;
     }
 
@@ -21,7 +21,7 @@
     }
 
     .section-two {
-        padding-top: 150px;
+        padding-top: 100px;
         padding-bottom: 500px;
         gap: 200px;
     }
@@ -44,11 +44,15 @@
     }
 
     .main-h1 {
-        font-size: 30pt;
+        font-size: 25pt;
     }
 
     .main-h2 {
-        font-size: 18pt;
+        font-size: 15pt;
+    }
+
+    .main-h3 {
+        width: 250px;
     }
 }
 
