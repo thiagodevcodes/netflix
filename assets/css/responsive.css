@@ -57,6 +57,13 @@
 }
 
 @media screen and (max-width: 579px) {
+    .button {
+       color: white;
+        padding: 6px 10px;
+        font-size: 20pt;
+        cursor: pointer;
+    }
+
     .nav-button {
         padding: 5px 10px;
         font-size: 12pt;
