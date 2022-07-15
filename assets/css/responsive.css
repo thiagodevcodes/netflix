@@ -1,7 +1,7 @@
 @media screen and (max-width: 1147px) {
     .section-one {
         padding-top: 50px;
-        padding-bottom: 600px;
+        padding-bottom: 450px;
         gap: 200px;
     }
 
@@ -99,6 +99,10 @@
         text-align: center;
         font-size: 15pt;
         width: 300px;
+    }
+
+    .section-one {
+        gap: 50px;
     }
 
     .section-one-h2 {
