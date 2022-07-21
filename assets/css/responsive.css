@@ -43,28 +43,28 @@
         flex-direction: column;
     }
 
-    .main-h1 {
+    .header-main-h1 {
         font-size: 25pt;
     }
 
-    .main-h2 {
+    .header-main-h2 {
         font-size: 15pt;
     }
 
-    .main-h3 {
+    .header-main-h3 {
         width: 250px;
     }
 }
 
 @media screen and (max-width: 520px) {
-    .button {
+    .header-button {
        color: white;
         padding: 15px 10px;
         font-size: 20pt;
         cursor: pointer;
     }
 
-    .main-inputs {
+    .header-main-inputs {
         gap: 20px;
     }
 
@@ -81,13 +81,13 @@
         width: 80px;
     }
 
-    .video-img {
+    .sections-video-img {
         position: absolute;
         width: 300px;
         z-index: 1;
     }
 
-    .video-card-video {
+    .section-one-video-card-video {
         position: relative;
         width: 250px;
         top: -6px;
@@ -120,14 +120,10 @@
         width: 300px;
     }
 
-    .input-text {
+    .header-input-text {
         padding: 20px;
         width: 350px;
         font-size: 12pt;
         outline: none;
     }   
-
-    .section-two-downloads {
-
-    }
 }

@@ -17,6 +17,59 @@ body {
     width: 100%;
 }
 
+.header-main-inputs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header-main-h1 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35pt;
+    margin-bottom: 10px;
+}
+
+.header-main-h2 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    margin-bottom: 20px;
+}
+
+.header-main-h3 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    margin-bottom: 20px;
+}
+
+.header-input-text {
+    padding: 20px;
+    width: 400px;
+    font-size: 12pt;
+    outline: none;
+}
+
+.header-input-text:focus {
+    border: 2px solid rgb(41, 122, 199);
+    transition: 0.2s;
+}
+
+.header-button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 0px 10px;
+    font-size: 20pt;
+    cursor: pointer;
+    padding: 14.5px 18px;
+}
+
 .nav {
     width: 100%;
     display: flex;
@@ -55,34 +108,35 @@ body {
 
 }
 
-.group-buttons {
+.nav-group-buttons {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.lang-icon {
+.nav-lang-icon {
     filter: invert(100%);
     width: 10px;
     position: absolute;
     margin-left: 5px;
 }
 
-.img {
-    width: 100%;
-    opacity: 0.4;
-    position: absolute;
-}
-
-.select-group {
+.nav-select-group {
     display: flex;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.select-group option {
+.nav-select-option {
     background-color: black;
 }
+
+.sections-video-img {
+    position: absolute;
+    width: 450px;
+    z-index: 1;
+}
+
 
 .section-main {
     background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/271ac55e-7228-438e-824e-92db37981e59/ae50261e-04b7-4a7f-8b9b-3d1a7ee3d849/BR-pt-20220627-popsignuptwoweeks-perspective_alpha_website_small.jpg");
@@ -92,58 +146,6 @@ body {
     z-index: -1;
 }
 
-.main-inputs {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.main-h1 {
-    color: white;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 35pt;
-    margin-bottom: 10px;
-}
-
-.main-h2 {
-    color: white;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20pt;
-    margin-bottom: 20px;
-}
-
-.main-h3 {
-    color: white;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15pt;
-    margin-bottom: 20px;
-}
-
-.input-text {
-    padding: 20px;
-    width: 400px;
-    font-size: 12pt;
-    outline: none;
-}
-
-.input-text:focus {
-    border: 2px solid rgb(41, 122, 199);
-    transition: 0.2s;
-}
-
-.button {
-    background-color: red;
-    border: none;
-    color: white;
-    padding: 0px 10px;
-    font-size: 20pt;
-    cursor: pointer;
-    padding: 14.5px 18px;
-}
 
 .section-one {
     display: flex;    
@@ -172,19 +174,13 @@ body {
     font-weight: normal;
 }
 
-.video-container {
+.section-one-video-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.video-img {
-    position: absolute;
-    width: 450px;
-    z-index: 1;
-}
-
-.video-card-video {
+.section-one-video-card-video {
     position: relative;
     width: 330px;
     top: -6px;
@@ -230,21 +226,21 @@ body {
     width: 350px;
 }
 
-.download-img {
+.section-two-download-img {
     position: absolute;
     width: 40px;
     z-index: 2;
 
 }
 
-.download-img2 {
+.section-two-download-img-alt {
     width: 25px;
     z-index: 2;
     filter: invert(100%);
     margin-left: 10px;
 }
 
-.download-p {
+.section-two-download-p {
     color: white;
     font-size: 12pt;
     z-index: 1;
@@ -253,7 +249,7 @@ body {
     margin-left: 60px;
 }
 
-.download-p2 {
+.section-two-download-p2 {
     color: #0071eb;;
     font-size: 12pt;
     z-index: 1;
@@ -262,13 +258,13 @@ body {
     margin-left: 60px;
 }
 
-.download-group {
+.section-two-download-group {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.download-container {
+.section-two-download-container {
     display: flex;
     justify-content: center;
     align-items: center;
