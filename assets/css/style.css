@@ -12,9 +12,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
     position: absolute;
     z-index: 1;
-    width: 100%;
 }
 
 .header-main-inputs {
@@ -131,143 +131,55 @@ body {
     background-color: black;
 }
 
-.sections-video-img {
-    position: absolute;
-    width: 450px;
-    z-index: 1;
-}
-
-
 .section-main {
-    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/271ac55e-7228-438e-824e-92db37981e59/ae50261e-04b7-4a7f-8b9b-3d1a7ee3d849/BR-pt-20220627-popsignuptwoweeks-perspective_alpha_website_small.jpg");
-    background-size:cover; 
-    height: 680px;
-    opacity: 0.4;
-    z-index: -1;
+
 }
 
+.section-one-bg {
+    background-image: url("../img/netflix.jpeg");
+    height: 80vh;
+    opacity: 0.4;
+}
 
 .section-one {
-    display: flex;    
-    align-items: center;
+    border-top: 10px solid rgba(128, 128, 128, 0.432);
+    display: flex;
     justify-content: center;
-    gap: 250px;
-    background-color: black;
-    height: 450px;
-    border-top: 7px solid rgba(80, 80, 80, 0.411);
-    border-bottom: 7px solid rgba(80, 80, 80, 0.411);
+    align-items: center;
+    gap: 100px;
+    padding: 100px;
     flex-wrap: wrap;
+    border-bottom: 10px solid rgba(128, 128, 128, 0.432);
 }
 
-.section-one-h2 {
+.section-one-texts {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40pt;
-    margin-bottom: 30px;
-}
-
-.section-one-h3 {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 550px;
+    width: 600px;
     font-size: 20pt;
-    font-weight: normal;
-}
-
-.section-one-video-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.section-one-video-card-video {
-    position: relative;
-    width: 330px;
-    top: -6px;
-}
-
-.section-two {
-    display: flex;    
-    align-items: center;
-    justify-content: center;
-    gap: 250px;
-    padding: 120px;
-    border-bottom: 7px solid rgba(80, 80, 80, 0.411);
-    flex-wrap: wrap-reverse;
-}
-
-.section-two-h2 {
-    color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40pt;
-    margin-bottom: 30px;
-    width: 450px;
 }
 
-.section-two-h3 {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 455px;
-    font-size: 20pt;
-    font-weight: normal;
-}
-
-.section-two-download {
+.section-one-video {
     position: relative;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    z-index: 1;
-    background-color: rgb(5, 5, 5);
-    padding: 20px;
-    border-radius: 7px;
-    border: 3px solid rgba(80, 80, 80, 0.411);
-    top: 120px;
-    width: 350px;
+    justify-content: center;
 }
 
-.section-two-download-img {
+.section-one-tv {
     position: absolute;
-    width: 40px;
-    z-index: 2;
-
+    width: 500px;
 }
 
-.section-two-download-img-alt {
-    width: 25px;
-    z-index: 2;
-    filter: invert(100%);
-    margin-left: 10px;
+.section-one-loopvideo {
+    position: relative;
+    z-index: -1;
+    width: 370px;
+    top: -10px;
 }
 
-.section-two-download-p {
-    color: white;
-    font-size: 12pt;
-    z-index: 1;
-    margin-left: 60px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 60px;
-}
 
-.section-two-download-p2 {
-    color: #0071eb;;
-    font-size: 12pt;
-    z-index: 1;
-    margin-left: 60px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 60px;
-}
 
-.section-two-download-group {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
 
-.section-two-download-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-}
 
