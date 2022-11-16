@@ -1,0 +1,45 @@
+@media screen and (max-width: 525px) {
+    .section-one-tv {
+        position: absolute;
+        width: 300px;
+
+    }
+
+    .section-one-loopvideo {
+        position: relative;
+        z-index: -1;
+        width: 230px;
+        top: -10px;
+    }
+
+    
+    .section-two-img {
+        width: 300px;
+    
+    }
+
+    .nav-button {
+        padding: 5px 5px;
+        font-size: 10pt;
+    }
+
+    .nav-button-lang {
+        padding: 5px 10px;
+        font-size: 10pt;
+    }
+
+    .header-input-text {
+        padding: 20px;
+        width: 300px;
+    }
+
+    .nav-img {
+        width: 80px;
+        margin: 30px 40px;
+    }
+
+
+
+    
+
+}   
