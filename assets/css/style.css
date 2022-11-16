@@ -12,9 +12,17 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
     position: absolute;
-    z-index: 1;
+    width: 100%;
+
+}
+
+.header-img {
+    position: absolute;
+    opacity: 0.4;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
 }
 
 .header-main-inputs {
@@ -22,6 +30,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .header-main-h1 {
@@ -80,7 +89,7 @@ body {
 }
 
 .nav-img {
-    width: 150px;
+    width: 120px;
     margin: 30px 40px;
 }
 
@@ -131,22 +140,20 @@ body {
     background-color: black;
 }
 
-
 .section-one-bg {
-    background-image: url("../img/netflix.jpeg");
     height: 100vh;
     opacity: 0.4;
 }
 
 .section-one {
-    border-top: 10px solid rgba(128, 128, 128, 0.432);
+    border-top: 10px solid rgba(128, 128, 128, 0.267);
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 50px;
     padding: 100px;
     flex-wrap: wrap;
-    border-bottom: 10px solid rgba(128, 128, 128, 0.432);
+    border-bottom: 10px solid rgba(128, 128, 128, 0.267);
 }
 
 .section-one-texts {
@@ -174,9 +181,5 @@ body {
     width: 370px;
     top: -10px;
 }
-
-
-
-
 
 
