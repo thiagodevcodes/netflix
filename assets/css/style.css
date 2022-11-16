@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -150,10 +151,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 150px;
     padding: 100px;
     flex-wrap: wrap;
     border-bottom: 10px solid rgba(128, 128, 128, 0.267);
+}
+
+.section-one-p {
+    font-size: 18pt;
+    margin-top: 15px;
 }
 
 .section-one-texts {
@@ -182,4 +188,17 @@ body {
     top: -10px;
 }
 
+.section-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    border-bottom: 10px solid rgba(128, 128, 128, 0.267);
+    flex-wrap: wrap;
+    padding: 80px;
+}
 
+.section-two-img {
+    width: 450px;
+
+}
